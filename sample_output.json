@@ -1,0 +1,38 @@
+
+{
+  "EC2Instances": [
+    {
+      "InstanceId": "i-0123456789abcdef0",
+      "InstanceType": "t2.micro",
+      "State": "running",
+      "PrivateIpAddress": "172.31.45.123",
+      "PublicIpAddress": "54.123.45.67",
+      "LaunchTime": "2023-05-15 08:30:45"
+    },
+    {
+      "InstanceId": "i-0abcdef1234567890",
+      "InstanceType": "t3.small",
+      "State": "stopped",
+      "PrivateIpAddress": "172.31.67.89",
+      "PublicIpAddress": "N/A",
+      "LaunchTime": "2023-04-20 14:15:30"
+    }
+  ],
+  "S3Buckets": [
+    {
+      "Name": "my-application-logs",
+      "Region": "us-east-1",
+      "CreationDate": "2023-01-10 09:45:22"
+    },
+    {
+      "Name": "company-data-backup",
+      "Region": "us-west-2",
+      "CreationDate": "2022-11-05 16:30:15"
+    },
+    {
+      "Name": "static-website-assets",
+      "Region": "eu-west-1",
+      "CreationDate": "2023-03-22 11:20:40"
+    }
+  ]
+}
