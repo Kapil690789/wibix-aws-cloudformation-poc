@@ -33,7 +33,7 @@ The template creates:
 - An IAM role with read-only access to AWS resources using the AWS managed policy `ReadOnlyAccess`
 - An instance profile that can be attached to EC2 instances
 
-### How to Deploy (Theoretical Steps)
+### How to Deploy (T Steps)
 
 1. Log in to the AWS Management Console
 2. Navigate to CloudFormation service
